@@ -341,11 +341,11 @@ class Stemmer:
 
 if __name__ == '__main__':
     p = Stemmer()
-    
-    print p.input( ['amesema'] )
-    print p.input( ['amezungumzia'] )
-    print p.input( ['kuendesha'] )
-    print p.input( ['kumuua'] )
+    p.input( ['amesema'] )
+    # print p.input( ['amesema'] )
+    # print p.input( ['amezungumzia'] )
+    # print p.input( ['kuendesha'] )
+    # print p.input( ['kumuua'] )
 
     # if len(sys.argv) > 1:
     #     for f in sys.argv[1:]:
